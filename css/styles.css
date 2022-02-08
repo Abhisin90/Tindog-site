@@ -1,0 +1,200 @@
+html
+{
+    height: 100vh;
+}
+
+body
+{
+    font-family:"Montserrat-Black",sans-serif;
+    margin:0;
+}
+
+/* Title page */
+#title
+{
+    background-color: #ff4c68;
+    color: white;
+}
+
+h1
+{
+    line-height: 1.5;
+    font-size:3.5rem;
+    font-weight:900;
+}
+
+h2
+{
+    line-height: 1.5;
+    font-size: 3rem;
+    margin:1% 0;
+    font-weight:900;
+}
+
+.container-fluid
+{
+    padding: 3% 15% 7%;
+}
+
+/* Navigation bar */
+
+.navbar-brand
+{
+    font-size: 2.5rem;
+    font-weight: bold;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.nav-item
+{
+    font-size:1.2rem;
+    padding-left: 2rem;
+}
+
+/* content and download button */
+
+.rows
+{
+    padding-top:5rem;
+    padding-bottom: 3rem;
+}
+
+.Download-button
+{
+    margin:2rem 1rem 2rem 0;
+}
+
+.img
+{
+    width: 23.5%;
+    transform: rotate(25deg);
+    position: absolute;
+} 
+
+/* Features */
+
+#features
+{
+    padding: 7% 15%;
+    background-color: #fff;
+    position: relative;
+}
+
+.features-points
+{
+    text-align: center;
+    padding:6%;
+}
+
+.h3-features
+{
+    font-size: 1.5rem;
+    font-weight: 800;
+}
+
+p
+{
+    color:#8f8f8f;
+    font-weight:400;
+}
+
+.icons 
+{
+    color:#ef8172;
+    margin-bottom:1rem;
+}
+
+.icons:hover
+{
+    color: #ff4c68;    
+}
+
+/* Testimonials */
+#testimonials
+{
+    text-align:center;
+    background-color:#ef8172 ;
+    color:#fff;
+}
+
+.carousel-item
+{
+    padding:7% 12%;
+}
+
+.dog-img
+{
+    width: 10%;
+    border-radius: 100%;
+    margin:2%
+}
+
+#press
+{
+    text-align: center;
+    background-color: #ef8172;
+}
+
+.press-logo
+{
+    width:15%;
+    margin:3% 3% 4.5% 3%;
+}
+
+/* Pricing */
+#pricing
+{
+    padding: 100px;
+    text-align: center;
+}
+
+.pricing-column
+{
+    padding:3% 2.5%;
+}
+
+@media (max-width:992px)
+{
+    #title
+    {
+        text-align: center;
+    }
+
+    .img
+    {
+        transform: rotate(0);
+        position: static;
+        width:60%;
+    }
+}
+
+/* CTA Section  */
+#cta
+{
+    background-color:#ff4c68;
+    padding: 7% 15%;
+    text-align: center;
+}
+
+.action-h3
+{
+    font-size: 3.5rem;
+    font-weight: 900;
+    line-height: 1.5;
+    color:#fff;
+}
+
+/* Footer */
+#footer
+{
+    background-color: #fff;
+    text-align: center;
+    padding: 7% 15%;
+}
+
+.logo 
+{
+    padding: 0% 1% 2%;
+}
+
+
